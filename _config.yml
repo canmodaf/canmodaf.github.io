@@ -23,7 +23,7 @@ social:
    facebook: 
    email: canmodaf@gmail.com
 
-google_analytics: #"UA-42859700-3"
+google_analytics: "UA-42859700-3"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
