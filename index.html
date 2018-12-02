@@ -4,24 +4,15 @@ title: Canada Modafinil
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
+  <h1 class="pageTitle"></h1>
+  <!--<img src="{{ '/assets/img/noop.jpg' | prepend: site.baseurl }}" alt="">-->
+  <p class="intro">Modafinil is wakefulness-promoting agent that's better overall in terms of lower mood alteration, tolerance, and <a href="{{ '/assets/pdf/jasinski.pdf' | prepend: site.baseurl }}">neurotoxicity</a> than traditional stimulants (Adderall, Dexedrine, Vyvanse etc.)</p>
+  
+  <h2>Studies</h2>
+  <p><i>"Furthermore, modafinil appears to be well-tolerated, with a low rate of adverse events and a low liability to abuse. Modafinil has a number of neurochemical actions in the brain, which may be related to primary effects on catecholaminergic systems. These effects are in general advantageous for cognitive processes."</i> <a href="https://www.ncbi.nlm.nih.gov/pubmed/17712350">https://www.ncbi.nlm.nih.gov/pubmed/17712350</a></p>
+
+  <p><i>"This effect appears to reduce impulsive responding, suggesting that modafinil may be of benefit in the treatment of attention deficit hyperactivity disorder."</i> <a href="https://www.ncbi.nlm.nih.gov/pubmed/12417966">https://www.ncbi.nlm.nih.gov/pubmed/12417966</a></p>
+
+  <p><i>"Two hundred milligrams modafinil improved accuracy without a reaction time trade-off, in both conditions of the attention-shifting task, but only when resources were most challenged."</i> <a href="https://www.ncbi.nlm.nih.gov/pubmed/19031073">https://www.ncbi.nlm.nih.gov/pubmed/19031073</a></p>
 </div>
 
