@@ -1,24 +1,17 @@
 ---
 layout: default
-title: About Long Haul
+title: 
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+  <h1 class="pageTitle"></h1>
+  <!--<img src="{{ '/assets/img/noop.jpg' | prepend: site.baseurl }}" alt="">-->
+  <p class="intro">Modafinil is wakefulness-promoting agent that's better overall in terms of lower mood alteration, tolerance, and <a href="{{ '/assets/pdf/jasinski.pdf' | prepend: site.baseurl }}">neurotoxicity</a> than traditional stimulants (Adderall, Dexedrine, Vyvanse etc.)</p>
+  
+  <h2>Studies</h2>
+  <p><i>"Furthermore, modafinil appears to be well-tolerated, with a low rate of adverse events and a low liability to abuse. Modafinil has a number of neurochemical actions in the brain, which may be related to primary effects on catecholaminergic systems. These effects are in general advantageous for cognitive processes."</i> <a href="https://www.ncbi.nlm.nih.gov/pubmed/17712350">https://www.ncbi.nlm.nih.gov/pubmed/17712350</a></p>
+
+  <p><i>"This effect appears to reduce impulsive responding, suggesting that modafinil may be of benefit in the treatment of attention deficit hyperactivity disorder."</i> <a href="https://www.ncbi.nlm.nih.gov/pubmed/12417966">https://www.ncbi.nlm.nih.gov/pubmed/12417966</a></p>
+
+  <p><i>"Two hundred milligrams modafinil improved accuracy without a reaction time trade-off, in both conditions of the attention-shifting task, but only when resources were most challenged."</i> <a href="https://www.ncbi.nlm.nih.gov/pubmed/19031073">https://www.ncbi.nlm.nih.gov/pubmed/19031073</a></p>
 </div>
