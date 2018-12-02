@@ -801,7 +801,7 @@ HEADER STYLING
 ***************/
 .header {
   background-color: seagreen;
-  background-image: url("../img/touring.jpg");
+  background-image: url("../img/noop.jpg");
   background-size: cover;
   background-position: center center;
   color: white;
@@ -820,7 +820,7 @@ HEADER STYLING
     font-weight: 800;
     text-transform: uppercase; }
     .header h1 a {
-      color: white;
+      color: black;
       text-decoration: none; }
 
 /***************
@@ -1078,7 +1078,7 @@ HEADER STYLING
           padding: 0 5px;
           border: none; }
           .header nav ul li a {
-            color: white;
+            color: black;
             font-size: .9em;
             text-decoration: none;
             padding: 0 .25em; }
