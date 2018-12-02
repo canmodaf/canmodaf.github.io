@@ -2,7 +2,7 @@ title: Canada Modafinil
 description: Information About Modafinil
 
 url: http://www.canadamodafinil.com
-baseurl: "http://www.canadamodafinil.com"
+baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
